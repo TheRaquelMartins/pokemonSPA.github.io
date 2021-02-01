@@ -1,0 +1,104 @@
+.imagediv{
+    display: flex;
+    width: 100vw;
+    position: relative;
+}
+
+#pageheader{
+    width: 100vw;
+}
+
+#home {
+    position: absolute;
+    top: 2%;
+    left: 90%;
+}
+
+.title {
+    position: absolute;
+    top: 15vh;
+    left: 19vw;
+    transform: translate(-50%, -50%);
+    font-family: fantasy;
+    font-size: 5vw;
+}
+
+.searchBarContainer {
+    position: absolute;
+    display: inline-flex;
+    flex-direction: row;
+    height: 10vh;
+    width: 25vw;
+    right: 35%;
+    top: 89%;
+}
+
+#submitBTN:hover {
+    color:  rgb(250, 139, 217);
+}
+
+#searchBar:focus {
+    box-shadow: 0px 0px 0px;
+    outline: 0px;
+}
+
+#searchBar {
+    border: 1px solid rgb(250, 139, 217);
+}
+
+.body {
+    background-color: rgb(255, 243, 205);
+}
+
+#character {
+    flex-direction: flex;
+    text-align: center;
+    padding: 2vw;
+    justify-content: space-evenly;
+}    
+
+.pokemon {
+    background-color: rgb(255, 241, 251);
+    box-shadow: 0 4px 8px 0 rgb(255, 5, 159, 0.2);
+    transition: 0.3s;
+    border-radius: 3%;
+    width: 290px;
+    height: 450px;
+    padding: 1vw;
+    justify-content: center;
+    text-align: center;
+    font-size: medium;
+    margin: 1vw;
+    flex-direction: flex;
+    justify-content: space-evenly;
+    display: inline-block;
+}
+
+.pokemon:hover {
+    background-color: #ddd; 
+    color: black; 
+}
+
+.detailsBody {
+    display: flex;
+    background-color:  rgb(255, 241, 251);
+    box-shadow: 0 4px 8px 0 rgba(255, 5, 159, 0.2);
+    transition: 0.3s;
+    border-radius: 3%;
+}
+
+#characterDetails {
+    flex: 30%;
+    justify-content: center;
+}
+
+.pokemonDetails {
+    flex: 70%;
+}
+
+#backButton {
+    position: absolute;
+    padding: 1vh;
+    align-content: center;
+    left: 50%;
+}

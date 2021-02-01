@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Pokemon Search</title>
+    <link rel="shortcut icon" type="image/jpg" href="favicon.ico"/>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+
+    <!-- requireJS -->
+    <script data-main="javascript/main"
+        src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.5/require.min.js"></script>
+</head>
+
+
+<body class="body">
+
+    <div>
+        <div class="imagediv">
+            <img id="pageheader" , src="resources/header.jpg" />
+            <img id="home" , src="resources/home.png" />
+            <div class="title">Search them all</div>
+            <div class="headercontainer">
+                <form>
+                    <div class="searchBarContainer">
+                        <input class="form-control" id="searchBar" type="text" placeholder="Search By Pokemoon..." />
+                        <div class="input-group-append"><button class="btn btn-outline-warning btn" type="submit"
+                                value="Submit" id="submitBTN"><i class="fa fa-search"></i></button></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="card" id="character"></div>
+
+    <div class="detailsBody">
+        <div class="card" id="characterDetails"></div>
+        <div class="pokemonDetails">
+            <div id="details"></div>
+            <div id="attacks"></div>
+        </div>
+    </div>
+    <div id="backButton" ></div>
+
+</body>
+
+</html>
